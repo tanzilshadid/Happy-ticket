@@ -1,0 +1,13 @@
+ticket = input()
+
+p = int(ticket[0]) + int(ticket[1]) + int(ticket[2])
+t = int(ticket[3]) + int(ticket[4]) + int(ticket[5])
+
+print(p)
+print(t)
+
+
+if p == t:
+    print('Счастливый')
+else:
+    print('Обычный')
